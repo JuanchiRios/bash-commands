@@ -1,0 +1,8 @@
+[user]
+	email = juan.rios@despegar.com
+	name = Juan Rios
+[push]
+	default = simple
+[alias]
+	st = status
+	co = checkout
