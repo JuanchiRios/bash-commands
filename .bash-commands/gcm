@@ -1,0 +1,5 @@
+#!/bin/bash
+a=`git rev-parse --abbrev-ref HEAD`
+a="[$a] "
+git commit -m "$a$1"
+
