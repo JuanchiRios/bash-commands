@@ -1,0 +1,6 @@
+#!/bin/bash
+cd $HOME/despegar/checkout/checkout-gui/src/main/sass ;
+compass compile ;
+cd $HOME/despegar/checkout/checkout-gui/src/main/static-content/js/angular2 ;
+npm run watch:dev
+
